@@ -1,0 +1,7 @@
+name = "grok-chat"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+assets = { directory = "public" }
+kv_namespaces = [
+  { binding = "PROMPT_KV", id = "8ea1b328a7c948bcb1254eacc29ba46a" }
+]
